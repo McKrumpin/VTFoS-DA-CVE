@@ -1,6 +1,6 @@
-import numpy as np
 import pandas as pd
 import src.load as dfl
+import src.compare as comp
 
 def main():
     # Load the data
@@ -8,7 +8,9 @@ def main():
     cve = dfl.load_cve()
 
     print (f'KEV shape: {kev.shape}\nCVE shape: {cve.shape}')
+
     # Analyze the data
+
     # Save / Plot
 
 if __name__ == "__main__":

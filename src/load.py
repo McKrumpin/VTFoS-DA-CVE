@@ -1,9 +1,8 @@
 '''
     This provides the logic for loading all of the nvdcve json files into a DataFrame
-    NOTE: Uses numpy to save after run, if it finds this file it will reload it
+    NOTE: Uses pickle to save after run, if it finds this file it will reload it
 '''
 
-import numpy as np
 import pandas as pd
 import json
 
@@ -16,7 +15,7 @@ def load_kev():
 
     # Read CSV into a dataframe
     kev_df = pd.read_csv(f'{DATA_DIR}known_exploited_vulnerabilities.csv')
-    np.save(f'{DATA_DIR}kev_df.npy', kev_df)
+    kev_df.to_pickle(f'{DATA_DIR}kev_df.pkl')
     return kev_df
 
 def load_cve():
@@ -145,11 +144,11 @@ def load_cve():
     print(f'Parse Results Total:\n\tV2: {parse_success_arr_total[0]}\n\tV3: {parse_success_arr_total[1]}\n\tV4: {parse_success_arr_total[2]}\n\tV?: {parse_success_arr_total[3]}\n\tE: {parse_success_arr_total[4]}')
 
     cve_df = pd.concat(all_years, ignore_index=True)
-    np.save(f'{DATA_DIR}cve_df.npy', cve_df)
+    cve_df.to_pickle(f'{DATA_DIR}cve_df.pkl')
     return cve_df
 
 def check_existing(source):
     try:
-        return pd.DataFrame(np.load(f'{DATA_DIR}{source}_df.npy', allow_pickle=True))
+        return pd.read_pickle(f'{DATA_DIR}{source}_df.pkl')
     except FileNotFoundError:
         return None
