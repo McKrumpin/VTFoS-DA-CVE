@@ -1,0 +1,6 @@
+cvss_privilegesRequired,count
+TPR:N,163074
+NONE,32948
+LOW,24312
+TPR:H,17003
+HIGH,5724

@@ -60,7 +60,7 @@ def load_cve():
                     elif "baseMetricV2" in impact:
                         log_res = 0
                         baseMetV2 = impact["baseMetricV2"]
-                        item_dict["severity"] = baseMetV2["severity"]
+                        item_dict[f'{cvss_prefix}severity'] = baseMetV2["severity"]
                         item_dict["exploitabilityScore"] = baseMetV2["exploitabilityScore"]
                         item_dict["impactScore"] = baseMetV2["impactScore"]
                         # Moved to cvss in v3 and renamed slightly, sometimes doesnt appear, just leave as NaN
@@ -112,7 +112,7 @@ def load_cve():
                         item_dict[f'{cvss_prefix}integrityImpact'] = cvssV3["integrityImpact"]
                         item_dict[f'{cvss_prefix}availabilityImpact'] = cvssV3["availabilityImpact"]
                         item_dict[f'{cvss_prefix}baseScore'] = cvssV3["baseScore"]
-                        item_dict["severity"] = cvssV3["baseSeverity"]
+                        item_dict[f'{cvss_prefix}severity'] = cvssV3["baseSeverity"]
 
                     elif "baseMetricV4" in impact:
                         parse_success_arr[2] += 1
@@ -146,6 +146,14 @@ def load_cve():
     cve_df = pd.concat(all_years, ignore_index=True)
     cve_df.to_pickle(f'{DATA_DIR}cve_df.pkl')
     return cve_df
+
+def load_comb(kev_df, cve_df):
+    quick_load = check_existing('comb')
+    if quick_load is not None:
+        return quick_load
+    comb_df = kev_df.merge(cve_df, on='cveID', suffixes=('_df1', '_df2'))
+    comb_df.to_pickle(f'{DATA_DIR}comb_df.pkl')
+    return comb_df
 
 def check_existing(source):
     try:

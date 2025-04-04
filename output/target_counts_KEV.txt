@@ -1,0 +1,211 @@
+vendorProject,count
+Microsoft,327
+Apple,80
+Cisco,75
+Adobe,74
+Google,61
+Oracle,39
+Apache,36
+Ivanti,27
+VMware,26
+D-Link,20
+Linux,18
+Fortinet,17
+Citrix,16
+Palo Alto Networks,13
+Atlassian,13
+Android,13
+Mozilla,12
+Zyxel,12
+SAP,12
+SonicWall,12
+Samsung,11
+Synacor,11
+QNAP,11
+Trend Micro,10
+Zoho,9
+Arm,9
+Roundcube,8
+Progress,8
+Qualcomm,8
+NETGEAR,8
+SolarWinds,7
+Red Hat,7
+Juniper,7
+IBM,7
+Mitel,7
+Sophos,7
+F5,6
+Jenkins,5
+Exim,5
+Drupal,4
+DrayTek,4
+Accellion,4
+Nagios,4
+Veeam,4
+GIGABYTE,4
+GNU,3
+WordPress,3
+Elastic,3
+ImageMagick,3
+Tenda,3
+SaltStack,3
+VMware Tanzu,3
+Realtek,3
+RARLAB,3
+DotNetNuke (DNN),3
+Sitecore,3
+Fortra,3
+Kaseya,3
+Veritas,3
+Qlik,3
+Meta Platforms,2
+EyesOfNetwork,2
+CyberPersons,2
+MinIO,2
+Cleo,2
+NUUO,2
+Reolink,2
+Advantive,2
+TP-Link,2
+BeyondTrust,2
+Sonatype,2
+Aviatrix,2
+Intel,2
+Hitachi Vantara,2
+Telerik,2
+TIBCO,2
+Zabbix,2
+MikroTik,2
+Paessler,2
+PEAR,2
+Hewlett Packard (HP),2
+Rails,2
+PHP,2
+WatchGuard,2
+IETF,2
+Dasan,2
+ThinkPHP,2
+GitLab,2
+ServiceNow,2
+JetBrains,2
+vBulletin,2
+OSGeo,2
+Unraid,2
+Laravel,2
+Rejetto,2
+Micro Focus,2
+Dahua,2
+PTZOptics,2
+TVT,1
+Siemens,1
+ChakraCore,1
+PHPUnit,1
+Treck TCP/IP stack,1
+Pulse Secure,1
+phpMyAdmin,1
+ForgeRock,1
+Craft CMS,1
+Grandstream,1
+SimpleHelp ,1
+Arcserve,1
+Quest,1
+LG,1
+Kentico,1
+reviewdog,1
+Webmin,1
+QNAP Systems,1
+OpenBSD,1
+Redis,1
+D-Link and TRENDnet,1
+NAKIVO,1
+October CMS,1
+Perl,1
+Docker,1
+McAfee,1
+tj-actions,1
+BQE,1
+Netis,1
+PlaySMS,1
+rConfig,1
+Arcadyan,1
+MediaTek,1
+Amcrest,1
+Edimax,1
+SIMalliance,1
+Liferay,1
+Dell,1
+Pi-hole,1
+Fuel CMS,1
+Embedthis,1
+Sumavision,1
+FatPipe,1
+Symantec,1
+Primetek,1
+Hikvision,1
+Npm package,1
+TeamViewer,1
+MongoDB,1
+Kingsoft,1
+Sudo,1
+FXC,1
+PaperCut,1
+Ruckus Wireless,1
+Barracuda Networks,1
+Netwrix,1
+SolarView,1
+Ignite Realtime,1
+ProjectSend,1
+North Grid,1
+SysAid,1
+Array Networks ,1
+ownCloud,1
+Unitronics,1
+Metabase,1
+Spreadsheet::ParseExcel,1
+Checkbox,1
+Joomla!,1
+Nostromo,1
+ConnectWise,1
+Sunhillo,1
+Nice,1
+CrushFTP,1
+NextGen Healthcare,1
+Justice AV Solutions,1
+Check Point,1
+PHP Group,1
+Twilio,1
+Acronis,1
+ScienceLogic,1
+Novi Survey,1
+Acclaim Systems,1
+Samba,1
+XStream,1
+Trimble,1
+Alcatel,1
+Ubiquiti,1
+InduSoft,1
+Trihedral,1
+Schneider Electric,1
+Crestron,1
+WSO2,1
+OpenSSL,1
+Versa,1
+WebKitGTK,1
+Audinate,1
+Artifex,1
+Delta Electronics,1
+Grafana Labs,1
+WebRTC,1
+7-Zip,1
+dotCMS,1
+Code Aurora,1
+JQuery,1
+CWP,1
+SugarCRM,1
+TerraMaster,1
+Cacti,1
+ZK Framework,1
+Teclib,1
+Plex,1
+Yealink,1

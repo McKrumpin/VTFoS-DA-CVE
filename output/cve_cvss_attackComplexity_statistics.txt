@@ -1,0 +1,4 @@
+cvss_attackComplexity,count
+LOW,165962
+MEDIUM,69712
+HIGH,7387

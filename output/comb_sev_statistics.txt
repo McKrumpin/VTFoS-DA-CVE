@@ -1,0 +1,5 @@
+severity,count
+HIGH,778
+MEDIUM,346
+CRITICAL,123
+LOW,18

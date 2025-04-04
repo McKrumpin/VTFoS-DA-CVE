@@ -1,0 +1,4 @@
+cvss_attackVector,count
+NETWORK,1007
+LOCAL,245
+ADJACENT_NETWORK,13

@@ -1,0 +1,6 @@
+cvss_confidentialityImpact,count
+COMPLETE,458
+PARTIAL,390
+HIGH,305
+NONE,99
+LOW,13

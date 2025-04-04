@@ -1,0 +1,6 @@
+cvss_integrityImpact,count
+COMPLETE,448
+PARTIAL,356
+HIGH,278
+NONE,166
+LOW,17

@@ -1,0 +1,6 @@
+cvss_availabilityImpact,count
+NONE,92148
+PARTIAL,77399
+COMPLETE,37019
+HIGH,35451
+LOW,1044

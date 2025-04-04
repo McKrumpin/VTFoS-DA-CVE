@@ -1,0 +1,5 @@
+cvss_userInteraction,count
+False,676
+NONE,246
+True,243
+REQUIRED,93
